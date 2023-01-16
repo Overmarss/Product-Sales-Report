@@ -34,7 +34,7 @@ Data information table:
 | **nb_site_visits**  | Numeric, number of times the customer has visited our website in the last 6 months  |
 | **state** | Character, location of the customer i.e. where orders are shipped |
 ### Data validation
-Using SQL database [PostgreSQL](https://www.postgresql.org/) I cleaned and validated [initial dataset](https://github.com/Overmarss/Product-Sales-Report/blob/main/product_sales_old.csv).
+I cleaned and validated [initial dataset](https://github.com/Overmarss/Product-Sales-Report/blob/main/product_sales_old.csv) using SQL database [PostgreSQL](https://www.postgresql.org/).
 
 **Data Validation steps:**
 - *sales_method*: initial dataset had 5 categories with some naming errors. Category 'email' was renamed into 'Email', and category 'em + call' was renamed to 'Email + Call'. This transformation changed the names of categories sales_method into 3 unique values.
