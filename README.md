@@ -40,3 +40,10 @@ I cleaned and validated [initial dataset](https://github.com/Overmarss/Product-S
 - *sales_method*: initial dataset had 5 categories with some naming errors. Category 'email' was renamed into 'Email', and category 'em + call' was renamed to 'Email + Call'. This transformation changed the names of categories sales_method into 3 unique values.
 - *revenue*: numeric values had missing values ('NA'). The maximum value is '238.32', the minimum is '32.54', without extreme points. Missing values were replaced with mean value '93.93'.
 - *years_as_customer*: 42 unique values without missing values, from 0 to 63, as the company was founded in 1984, years as a customer must have values from 0 to 38. Rows with values more than 38 years were replaced with value 38. Rows values changed for 5 rows.
+
+## Contacts:
+**[Telegram](https://t.me/ovrmars)**
+
+**[LinkedIn](https://www.linkedin.com/in/andriikyrii/)**
+
+**[E-mail](kiriyandrey@gmail.com)**
