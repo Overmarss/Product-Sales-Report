@@ -1,5 +1,5 @@
 week,sales_method,customer_id,nb_sold,revenue,years_as_customer,nb_site_visits,state
-2,Email,2e72d641-95ac-497b-bbf8-4861764a7097,10,NA,0,24,Arizona
+1,Email,2e72d641-95ac-497b-bbf8-4861764a7097,10,NA,0,24,Arizona
 6,Email + Call,3998a98d-70f5-44f7-942e-789bb8ad2fe7,15,225.47,1,28,Kansas
 5,Call,d1de9884-8059-4065-b10f-86eef57e4a44,11,52.55,6,26,Wisconsin
 4,Email,78aa75a4-ffeb-4817-b1d0-2f030783c5d7,11,NA,3,25,Indiana
