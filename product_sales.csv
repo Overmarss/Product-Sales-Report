@@ -1,5 +1,5 @@
 week,sales_method,customer_id,nb_sold,revenue,years_as_customer,nb_site_visits,state
-2,Email,18919515-a618-430c-9a05-2c7d8fea96af,10,97.22,38,24,California
+1,Email,18919515-a618-430c-9a05-2c7d8fea96af,10,97.22,38,24,California
 4,Call,2ea97d34-571d-4e1b-95be-fea1c404649f,10,50.47,38,27,California
 5,Email + Call,ace324ea-fb31-4644-8ad6-12e41e76b1a8,12,93.93,38,29,New York
 2,Email,38a2040b-ab8d-4522-a453-07b3d1ff47af,10,101.41,38,25,Tennessee
