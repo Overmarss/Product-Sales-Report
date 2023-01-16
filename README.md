@@ -2,7 +2,7 @@
 ## Product Sales Report for company **Pens and Printers**
 
 ### Contents:
-1. [Project Code](https://github.com/Overmarss/Product-Sales-Report/blob/main/product_sales.ipynb)
+1. [Project Code (Jupyter Notebook)](https://github.com/Overmarss/Product-Sales-Report/blob/main/product_sales.ipynb)
 2. [Presentation Slides](https://github.com/Overmarss/Product-Sales-Report/blob/main/Report.pdf)
 3. [Data Source](https://github.com/Overmarss/Product-Sales-Report/blob/main/product_sales.csv)
 4. [Dataset befor data cleaning and validation - initial dataset](https://github.com/Overmarss/Product-Sales-Report/blob/main/product_sales_old.csv)
@@ -36,3 +36,6 @@ Data information table:
 ### Data validation
 Using SQL database [PostgreSQL](https://www.postgresql.org/) I cleaned and validated [initial dataset](https://github.com/Overmarss/Product-Sales-Report/blob/main/product_sales_old.csv).
 **Data Validation steps:**
+- *sales_method*: initial dataset had 5 categories with some naming errors. Category 'email' was renamed into 'Email', and category 'em + call' was renamed to 'Email + Call'. This transformation changed the names of categories sales_method into 3 unique values.
+- *revenue*: numeric values had missing values ('NA'). The maximum value is '238.32', the minimum is '32.54', without extreme points. Missing values were replaced with mean value '93.93'.
+- *years_as_customer*: 42 unique values without missing values, from 0 to 63, as the company was founded in 1984, years as a customer must have values from 0 to 38. Rows with values more than 38 years were replaced with value 38. Rows values changed for 5 rows.
